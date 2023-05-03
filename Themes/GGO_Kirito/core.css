@@ -795,8 +795,7 @@
         background-color: var(--secondary3-colour); 
         border-bottom: 2px solid var(--primary3-colour); 
         height: 30px;
-        margin: 0px;
-    }
+     }
     #app-mount .typeWindows-2-g3UY:after {
         content: "Vencord";
         color: rgb(255,255,255,0.5);
