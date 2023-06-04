@@ -10,7 +10,8 @@
 @import url('https://raw.githubusercontent.com/Magnisimus/BetterDiscord-ThemesAndPlugins/master/Themes/GGO_Kirito/core.css');
 
 :root{
-    --background: url('https://images.alphacoders.com/632/632525.png');
+    /*--background: url('https://images.alphacoders.com/632/632525.png');*/
+    --background: url('https://media.discordapp.net/attachments/916355303388368900/1115042587020099676/84d3e4be718620f70a6877729e9d8149.jpg?width=1181&height=676');
     --activetext-colour: white;
 
     --primary1-colour: red;
