@@ -11,14 +11,14 @@
 
 :root{
     /*--background: url('https://images.alphacoders.com/632/632525.png');*/
-    --background: url('https://media.discordapp.net/attachments/916355303388368900/1115042587020099676/84d3e4be718620f70a6877729e9d8149.jpg');
+    --background: url('https://cdn.discordapp.com/attachments/916355303388368900/1124021284825726986/Fb53ygbakAE8m8J.png');
     --activetext-colour: white;
 
     --primary1-colour: violet;
     /*--primary2-colour: rgba(200,0,255,1);
     --primary3-colour: rgba(100,0,170,1);*/
-    --primary2-colour: rgba(174,68,250,0.5);
-    --primary3-colour: rgba(49,23,96,0.6);
+    --primary2-colour: rgba(253,69,255,0.8);
+    --primary3-colour: rgba(138,19,124,0.8);
 
 
     --secondary1-colour: rgba(50,50,50,0.3);
