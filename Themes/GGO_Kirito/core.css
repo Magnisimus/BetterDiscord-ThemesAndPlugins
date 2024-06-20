@@ -142,8 +142,34 @@
         #app-mount .nowPlayingColumn_c2739c .itemCard_f02fcf:hover {background-color: var(--secondary1-colour);}
         #app-mount .nowPlayingColumn_c2739c .itemCard_f02fcf .body_cd82a7 {background-color: var(--secondary2-colour);}
 
+    /*Shop*/
+        #app-mount .content_a4d4d9 .shop_e77fa3 {
+            background-image: var(--transparency-3);
+        }
+
+    /*App Directory*/
+        #app-mount .directoryContainer_da3f59 {
+            background-image: var(--transparency-3);
+        }
+
+        #app-mount .directoryContainer_da3f59 .container_d9c848,
+        #app-mount .container_d7acc7 .category_d7acc7 {
+            transition: background-color 0.2s; 
+            transition-timing-function: ease-in-out;
+        }
+
+        #app-mount .directoryContainer_da3f59 .container_d9c848:hover,
+        #app-mount .container_d7acc7 .category_d7acc7:hover {
+            background-color: var(--secondary2-colour);
+        }
+
+        #app-mount .directoryContainer_da3f59 .inputDefault_f8bc55 {border-color: transparent!important;}
+        #app-mount .directoryContainer_da3f59 .searchBox_d83b4d:focus-within {
+            border-color: var(--primary1-colour);
+        }
+
 /*In Servers*/
-    #app-mount .listItem_c96c45 .numberBadge__40d6f {
+    #app-mount .listItem_c96c45 .numberBadge_df8943 {
         background-color: var(--primary1-colour)!important;
     }
 
@@ -193,7 +219,7 @@
         #app-mount .containerDefault_f6f816 {margin-right: 10px;}
 
         #app-mount .mention_c10249,
-        #app-mount .mentionsBadge_e2a798 .numberBadge__40d6f {
+        #app-mount .mentionsBadge_e2a798 .numberBadge_df8943 {
             background-color: var(--primary1-colour)!important;
         }
 
@@ -379,7 +405,7 @@
             }
 
             #app-mount .title_a7d72e,
-            #app-mount .chat_a7d72e .container-3wLKDe {
+            #app-mount .chat_a7d72e .container_a6d69a {
                 background-color: transparent;
             }
 
@@ -437,7 +463,8 @@
     #app-mount .peopleColumn_c2739c ::-webkit-scrollbar-track, 
     #app-mount .homeWrapperNormal_d175a8 ::-webkit-scrollbar-track,
     #app-mount .container-3wLKDe ::-webkit-scrollbar-track,
-    #app-mount .enterDone_f906dd ::-webkit-scrollbar-track {
+    #app-mount .enterDone_f906dd ::-webkit-scrollbar-track,
+    #app-mount .chat_a7d72e .container_a6d69a ::-webkit-scrollbar-track {
         background-color: var(--primary3-colour); 
         border-radius: 10px; 
         border-color: var(--primary3-colour)
@@ -823,12 +850,13 @@
 
 /*Emoji, Gif and SoundBoard Picker Popup*/
     #app-mount .contentWrapper_af5dbb,
-    #app-mount .contentWrapper_eab878,
-    #app-mount .picker_cd703d {
+    #app-mount .animatorLeft_f88ae3 .picker_cd703d,
+    #app-mount .animatorLeft_f88ae3 .header_c6ee36,
+    #app-mount .animatorLeft_f88ae3 .emojiPicker_c6ee36 {
         background-color: var(--secondary3-colour); 
     }
-    #app-mount .contentWrapper_af5dbb .inspector_c3120f,
-    #app-mount .contentWrapper_eab878 .inspector_c3120f,
+    #app-mount .inspector_c3120f,
+    #app-mount .inspector_c3120f,
     #app-mount .soundButton_f40049:hover {
         background-color: var(--secondary2-colour);
     }
@@ -853,7 +881,6 @@
         font-weight: 500;
 
         position: absolute;
-        top: 8px;
         left: 50%;
     }
 
