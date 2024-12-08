@@ -48,7 +48,7 @@
     background: var(--transparency-2);
 }
 /* chat and top area and other secondary pages */
-.app_bd26cc .chat_a7d72e, .app_bd26cc .scrollableContainer_d0696b {
+.app_bd26cc .chat_a7d72e, .app_bd26cc .scrollableContainer_bdf0de {
     background: transparent;
     background-image: var(--transparency-3);
 }
